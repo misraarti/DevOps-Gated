@@ -9,7 +9,7 @@ trigger:
     - '*'
 
 pool:
-  name: Test
+  name: Default
 
 variables:
   buildConfiguration: 'Release'
