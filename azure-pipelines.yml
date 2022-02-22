@@ -20,14 +20,14 @@ steps:
   displayName: Restore nuget packages
   inputs:
     command: restore
-    projects: 'gated-checkin/**/*.csproj' #'**/*.csproj'
+    projects: '**/*.csproj'
     workingDirectory: $(Build.SourcesDirectory)
 
 - task: DotNetCoreCLI@2
   displayName: Build
   inputs:
     command: build
-    projects: '$(Build.SourcesDirectory)/gated-checkin/GatedCheckin.sln'
+    projects: '**/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
 # You just added coverlet.collector to use 'XPlat Code Coverage'
@@ -35,7 +35,7 @@ steps:
   displayName: Test
   inputs:
     command: test
-    projects: 'gated-checkin/*Tests/*.csproj' #'**/*Tests/*.csproj'
+    projects: '**/*Tests/*Test*.csproj'
     arguments: '--configuration $(buildConfiguration) --collect:"XPlat Code Coverage" -- RunConfiguration.DisableAppDomain=true'
     workingDirectory: $(Build.SourcesDirectory)
 
