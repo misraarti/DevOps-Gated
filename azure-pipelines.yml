@@ -28,7 +28,7 @@ steps:
   inputs:
     command: build
     projects: '**/*.csproj'
-    arguments: '--configuration $(buildConfiguration)'
+    arguments: '--no-restore --configuration $(buildConfiguration)'
 
 # You just added coverlet.collector to use 'XPlat Code Coverage'
 - task: DotNetCoreCLI@2
