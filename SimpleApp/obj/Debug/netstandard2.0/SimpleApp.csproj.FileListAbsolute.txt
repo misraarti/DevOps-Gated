@@ -1,0 +1,8 @@
+C:\gated-checkin\SimpleApp\bin\Debug\netstandard2.0\SimpleApp.deps.json
+C:\gated-checkin\SimpleApp\bin\Debug\netstandard2.0\SimpleApp.dll
+C:\gated-checkin\SimpleApp\bin\Debug\netstandard2.0\SimpleApp.pdb
+C:\gated-checkin\SimpleApp\obj\Debug\netstandard2.0\SimpleApp.AssemblyInfoInputs.cache
+C:\gated-checkin\SimpleApp\obj\Debug\netstandard2.0\SimpleApp.AssemblyInfo.cs
+C:\gated-checkin\SimpleApp\obj\Debug\netstandard2.0\SimpleApp.csproj.CoreCompileInputs.cache
+C:\gated-checkin\SimpleApp\obj\Debug\netstandard2.0\SimpleApp.dll
+C:\gated-checkin\SimpleApp\obj\Debug\netstandard2.0\SimpleApp.pdb
